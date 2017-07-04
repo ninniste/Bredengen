@@ -1,0 +1,168 @@
+html{
+}
+
+header.topp ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: #333;
+    width: 100%;
+    left:0;
+    top:0;
+    z-index: 999;
+    position: fixed;
+}
+
+
+header.topp li {
+    float:right;
+}
+
+header.topp li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header.topp li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+ header.topp li.dropdown {
+    display: inline-block;
+}
+
+header.topp .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+header.topp .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+header.topp .dropdown-content a:hover {background-color: #f1f1f1}
+
+header.topp .dropdown:hover .dropdown-content {
+    display:block;
+}
+
+.logo{
+  float:left;
+  margin-top: 8px;
+  margin-left: 10px;
+  image-orientation:center;
+}
+
+
+
+.hidden {
+  display: none;
+}
+
+.container {
+  margin: 0;
+  max-width: 750px;
+  margin:10vh auto 0 auto;
+}
+
+.container > div {
+  display: inline-block;
+}
+
+#slideshow {
+  margin: 0;
+	position: relative;
+	width: 100%;
+  height: 300px;
+}
+
+#slideshow > div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#slideshow img {
+	width: 100%;
+  margin: 0;
+  border: solid 1px #283593;
+}
+
+#slide a {
+  width: 40px;
+  font-size: 64px;
+  display: inline-block;
+  color: #9FA8DA;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 400px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer.reinvent-footer section.footer-bottom{
+  background-color:#1c1c1c;
+  color:#efefef;
+}
+
+footer.reinvent-footer section.footer-bottom{
+  position:relative;
+  text-align:center;
+}
+
+footer.reinvent-footer section.footer-bottom .footer-links{
+  padding:15px 0;
+  margin:0;
+  list-style-type:none;
+  width:100%;
+  display:inline-block;
+  text-align:center;
+}
+
+
+footer.reinvent-footer section.footer-bottom .footer-links li{
+  display:inline;
+	text-align:center;
+  padding:20px;
+}
+
+
+footer.reinvent-footer section.footer-bottom .footer-links li a{
+  font-size:15px;
+	text-decoration:none;
+	line-height:normal;
+	color:#2eedef;
+  display:inline-block;
+}
+
+footer.reinvent-footer section.footer-bottom .copyright{
+  width:100%;
+  text-align:center;
+  padding-bottom:15px;
+  font-size:15px;
+}
